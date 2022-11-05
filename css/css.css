@@ -1,0 +1,74 @@
+/* CSS Start */
+.one{
+	background:black;
+	color:white;
+	height:100px;
+	width:100%;
+}
+.one img{
+	border-radius:30px;
+	margin-left:0px;
+}
+.one h1{
+	font-size:50px;
+	font-family:Century Gothic;
+	margin-top:-5px;
+	background: -webkit-linear-gradient(aqua,aqua,aqua,white,white,white,red,red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.two
+{
+		background:#36454F;
+}
+.two ul
+{
+		margin-left:800px;
+		margin-top:-5px;
+		padding:0px;
+}
+.two li
+{
+	display:inline-block;
+	padding:2px 2px;
+	line-height:30px;
+}
+.two a
+{
+		color:white;
+		font-size:18px;
+		text-decoration:none;
+		font-family:Helvetica;
+		left:0px;
+		padding:10px;
+		display:block;
+		top:0px;
+		border:1px solid blue;
+		border-radius:10px;
+}
+a:hover{
+	color:deeppink;
+	background:lavender;
+}
+li.active{
+	background:#36454f;
+}
+.two li ul{
+	display:none;
+}
+.two li:hover ul{
+	display:block;
+	position:absolute;
+}
+.two li li{
+	display:block;
+}
+.two li li a{
+	border:1px solid blue;
+}
+.three{
+	background:url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60');
+	height:400px;
+	width:100%;
+	margin-top:-17px;
+}
